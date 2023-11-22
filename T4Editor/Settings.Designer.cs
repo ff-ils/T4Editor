@@ -12,7 +12,7 @@ namespace T4Editor {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.6.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.8.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,19 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\t#FFEBCD")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool FirstInstall {
+            get {
+                return ((bool)(this["FirstInstall"]));
+            }
+            set {
+                this["FirstInstall"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("DarkBlue")]
         public string ControlBlockColor {
             get {
                 return ((string)(this["ControlBlockColor"]));
@@ -37,19 +49,7 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#DAA520")]
-        public string InjectedColor {
-            get {
-                return ((string)(this["InjectedColor"]));
-            }
-            set {
-                this["InjectedColor"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#DEB887")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DarkBlue")]
         public string ClassFeatureBlockColor {
             get {
                 return ((string)(this["ClassFeatureBlockColor"]));
@@ -61,7 +61,7 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#C0C0C0")]
+        [global::System.Configuration.DefaultSettingValueAttribute("DarkGray")]
         public string DirectiveColor {
             get {
                 return ((string)(this["DirectiveColor"]));
@@ -73,7 +73,7 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FFFFFF")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Brown")]
         public string OutputColor {
             get {
                 return ((string)(this["OutputColor"]));
@@ -85,19 +85,19 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FFFAFAD2")]
-        public string TagBackground {
+        [global::System.Configuration.DefaultSettingValueAttribute("DarkOrange")]
+        public string InjectedColor {
             get {
-                return ((string)(this["TagBackground"]));
+                return ((string)(this["InjectedColor"]));
             }
             set {
-                this["TagBackground"] = value;
+                this["InjectedColor"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FF000000")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Black")]
         public string TagColor {
             get {
                 return ((string)(this["TagColor"]));
@@ -109,13 +109,13 @@ namespace T4Editor {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool FirstInstall {
+        [global::System.Configuration.DefaultSettingValueAttribute("Yellow")]
+        public string TagBackground {
             get {
-                return ((bool)(this["FirstInstall"]));
+                return ((string)(this["TagBackground"]));
             }
             set {
-                this["FirstInstall"] = value;
+                this["TagBackground"] = value;
             }
         }
     }

@@ -2,29 +2,29 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="T4Editor" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="ControlBlockColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">	#FFEBCD</Value>
-    </Setting>
-    <Setting Name="InjectedColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#DAA520</Value>
-    </Setting>
-    <Setting Name="ClassFeatureBlockColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#DEB887</Value>
-    </Setting>
-    <Setting Name="DirectiveColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#C0C0C0</Value>
-    </Setting>
-    <Setting Name="OutputColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#FFFFFF</Value>
-    </Setting>
-    <Setting Name="TagBackground" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#FFFAFAD2</Value>
-    </Setting>
-    <Setting Name="TagColor" Type="System.String" Scope="User">
-      <Value Profile="(Default)">#FF000000</Value>
-    </Setting>
     <Setting Name="FirstInstall" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ControlBlockColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DarkBlue</Value>
+    </Setting>
+    <Setting Name="ClassFeatureBlockColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DarkBlue</Value>
+    </Setting>
+    <Setting Name="DirectiveColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DarkGray</Value>
+    </Setting>
+    <Setting Name="OutputColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Brown</Value>
+    </Setting>
+    <Setting Name="InjectedColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DarkOrange</Value>
+    </Setting>
+    <Setting Name="TagColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="TagBackground" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
     </Setting>
   </Settings>
 </SettingsFile>
