@@ -63,13 +63,13 @@ namespace T4Editor.Commands
 
 		private void SetDarkThemeColors()
 		{
-			Settings.Default.ControlBlockColor = "#FFEBCD";
-			Settings.Default.ClassFeatureBlockColor = "#DEB887";
-			Settings.Default.DirectiveColor = "#C0C0C0";
-			Settings.Default.OutputColor = "#FFFFFF";
-			Settings.Default.InjectedColor = "#DAA520";
-			Settings.Default.TagColor = "#FF000000";
-			Settings.Default.TagBackground = "#FFFAFAD2";
+			Settings.Default.ControlBlockColor = "DarkBlue";
+			Settings.Default.ClassFeatureBlockColor = "DarkBlue";
+			Settings.Default.DirectiveColor = "DarkGray";
+			Settings.Default.OutputColor = "Brown";
+			Settings.Default.InjectedColor = "DarkOrange";
+			Settings.Default.TagColor = "Black";
+			Settings.Default.TagBackground = "Yellow";
 			Settings.Default.Save();
 			BatchUpdateColors();
 		}

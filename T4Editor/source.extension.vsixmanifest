@@ -2,11 +2,11 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="T4Editor.mod.985DF38E-A78E-4711-BF98-E4E864AFA6B4" Version="2.5.1" Language="en-US" Publisher="Tim Maes" />
-        <DisplayName>T4Editor mod</DisplayName>
+        <DisplayName>T4Editor modified</DisplayName>
         <Description xml:space="preserve">Configurable colored editor for *.tt, *.t4 and *.ttinclude files with T4 code completion, outlining and brace matching. </Description>
         <MoreInfo>https://github.com/ff-ils/T4Editor</MoreInfo>
         <License>LICENSE.txt</License>
-        <ReleaseNotes>Detect user VSTheme automatically</ReleaseNotes>
+        <ReleaseNotes>Changed default light colors</ReleaseNotes>
         <Icon>T4Editor.jpg</Icon>
         <PreviewImage>T4Editor.jpg</PreviewImage>
         <Preview>false</Preview>
